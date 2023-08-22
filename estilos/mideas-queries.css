@@ -1,15 +1,21 @@
 @charset "utf-8";
 /* tablet */
-@media screen and (min-width: 600px) and (max-width: 768px){
-
+@media screen and (min-width: 768px) and (max-width: 962px){
+main{
+   background-image: linear-gradient(to bottom ,#5F2C82,#4E8797,#6CD3CF);
+} 
 
 
 }
 /* notebook */
 @media screen and (min-width: 768px) and (max-width: 992px){
-    
+    main{
+        background-image: linear-gradient(to bottom ,#5F2C82,#4E8797,#6CD3CF);
+     } 
 }
 /* tv */
 @media screen and (min-width:992px){
-    
+    main{
+        background-image: linear-gradient(to bottom ,#5F2C82,#4E8797,#6CD3CF);
+     } 
 }

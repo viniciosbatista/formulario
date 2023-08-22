@@ -12,6 +12,7 @@
     --bg-buttom:#53aaa7;
     --bg-inputhover:#2D6462;
     --bg-inputhover2:#6CD3CF;
+    --bg-degrade:#4E8797;
 }
 body{
     background-color:var(--bg-body);
@@ -110,4 +111,7 @@ a{
     text-decoration:none ;
     color:gray;
     
+}
+a::after{
+    content:" ✉";
 }
