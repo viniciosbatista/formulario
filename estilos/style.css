@@ -18,15 +18,11 @@ body{
     background-color:var(--bg-body);
 }
 main{
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
+    display: flex;
 }
 #login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    align-items: center;
+    
     height: 515px;
     
 }
