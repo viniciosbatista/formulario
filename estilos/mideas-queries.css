@@ -1,20 +1,29 @@
 @charset "utf-8";
 /* tablet */
-@media screen and (min-width: 768px) and (max-width: 962px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 main{
    background-image: linear-gradient(to bottom ,#5F2C82,#4E8797,#6CD3CF);
+   
 } 
+#login{
+    width: 80vw;
+    
+}
+#formulario{
+    float:right ;
+    width: 70%;
+    border-radius: 0px 10px 10px 0px;
+}
+#imagem{
+    float: left;
+    width: 30%;
 
+    border-radius: 10px 0px 0px 10px ;
+}
 
 }
 /* notebook */
-@media screen and (min-width: 768px) and (max-width: 992px){
-    main{
-        background-image: linear-gradient(to bottom ,#5F2C82,#4E8797,#6CD3CF);
-     } 
-}
-/* tv */
-@media screen and (min-width:992px){
+@media screen and (min-width: 992px){
     main{
         background-image: linear-gradient(to bottom ,#5F2C82,#4E8797,#6CD3CF);
      } 
