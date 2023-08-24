@@ -7,7 +7,8 @@ main{
 } 
 #login{
     width: 80vw;
-    
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.522) ;
+    border-radius: 10px;
 }
 #formulario{
     float:right ;
@@ -17,14 +18,51 @@ main{
 #imagem{
     float: left;
     width: 30%;
-
+    height: 54.5vh;
     border-radius: 10px 0px 0px 10px ;
 }
-
+.email-senha{
+    width: 90%;
 }
-/* notebook */
+}
+
+
+
+
+
+
+/* notebook - tv*/
 @media screen and (min-width: 992px){
     main{
         background-image: linear-gradient(to bottom ,#5F2C82,#4E8797,#6CD3CF);
      } 
+     #login{
+        width: 75vw;
+        box-shadow:0px 0px 10px rgba(0, 0, 0, 0.522) ;
+        border-radius: 15px;
+        height: 350px;
+    }
+    #formulario{
+        float:left ;
+        width: 50%;
+        height: 100%;
+        border-radius: 15px 0px 0px 15px;
+    }
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 63.3vh;
+        border-radius: 0px 15px 15px 0px;
+        background-position:bottom center;
+    }
+    .email-senha{
+        width: 90%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    p{
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
 }
