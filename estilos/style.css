@@ -73,8 +73,8 @@ p{
     border: none;
     padding: 12px 20px;
     border-radius: 10px;
-    margin-bottom: 2px;
-    width: 80%;
+    margin-bottom: 2px;   
+    width: 84%;
 }
 #bt-entrar{
     background-color: var(--bg-buttom);
