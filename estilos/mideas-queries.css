@@ -18,7 +18,7 @@ main{
 #imagem{
     float: left;
     width: 30%;
-    height: 54.5vh;
+    height: 54.6vh;
     border-radius: 10px 0px 0px 10px ;
 }
 .email-senha{
@@ -51,7 +51,7 @@ main{
     #imagem{
         float: right;
         width: 50%;
-        height: 63.3vh;
+        height: 63.5vh;
         border-radius: 0px 15px 15px 0px;
         background-position:bottom center;
     }
